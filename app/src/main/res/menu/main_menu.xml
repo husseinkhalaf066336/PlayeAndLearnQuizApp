@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/sinOut"
+        android:title="sinOut"
+        app:showAsAction="collapseActionView"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+        />
+</menu>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PL Quiz Play to learn</string>
+
+    <!--    fragment_sign_in-->
+    <string name="fragment_sign_in_txt_tolbar">Hallo my app PDS</string>
+    <string name="fragment_sign_in_EitText_email">Email</string>
+    <string name="fragment_sign_in_EitText_password">pleas enter your password</string>
+    <string name="fragment_sign_in_Button_login">Login</string>
+    <string name="fragment_sign_in_register">Register </string>
+
+    <!--    fragment_sign_up-->
+    <string name="fragment_sign_up_TextView_container">base information</string>
+    <string name="fragment_sign_up_EitText_userName">Full Name</string>
+    <string name="fragment_sign_up_EitText_email">Email</string>
+    <string name="fragment_sign_up_EitText_password">Password</string>
+    <string name="fragment_sign_up_EitText_ConfirmPassword"> Confirm password</string>
+    <string name="activityRegister_btn_Choose_Age"> choose the bron dat</string>
+    <string name="activityRegister_EitText_Age">Date of birth</string>
+    <string name="activityRegister_EitText_Address"> Address</string>
+    <string name="fragment_signUp_Button_save">save</string>
+    <string name="fragment_signUp_Button_back_SinIn">back_SinIn</string>
+
+
+</resources>

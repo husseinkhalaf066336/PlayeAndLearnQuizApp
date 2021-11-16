@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".views.SignInFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+
+                android:id="@+id/Viw_appBar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="@color/colorPrimary"
+                android:fitsSystemWindows="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </View>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:background="@drawable/ic_wave"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Viw_appBar" />
+
+            <ImageView
+                android:id="@+id/fragment_sign_in_imageView1"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_200sdp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintLeft_toRightOf="@+id/fragment_sign_in_imageView2"
+                app:layout_constraintTop_toBottomOf="@+id/Viw_appBar"
+                app:srcCompat="@drawable/ic_lightbulb" />
+
+            <ImageView
+                android:id="@+id/fragment_sign_in_imageView2"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_200sdp"
+                app:layout_constraintBottom_toBottomOf="@+id/fragment_sign_in_imageView1"
+                app:layout_constraintRight_toLeftOf="@+id/fragment_sign_in_imageView1"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/fragment_sign_in_imageView1"
+                app:srcCompat="@drawable/ic_undraw_real_time_sync" />
+
+
+            <LinearLayout
+                android:id="@+id/LoginContainer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/shape_fragment_signincardview"
+                android:elevation="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:padding="@dimen/_15sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fragment_sign_in_imageView1">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3sdp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/fragment_signIn_EitText_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:drawableStart="@drawable/ic_icon_email"
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:hint="@string/fragment_sign_in_EitText_email"
+                        android:inputType="textEmailAddress"
+                        android:padding="@dimen/_20sdp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3sdp"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/fragment_signIn_EitText_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:drawableStart="@drawable/ic_icon_pass"
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:hint="@string/fragment_sign_in_EitText_password"
+                        android:inputType="textPassword"
+                        android:padding="@dimen/_20sdp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/fragment_signIn_Button_save"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="@string/fragment_sign_in_Button_login"
+                    android:textSize="@dimen/_16ssp"
+                    app:cornerRadius="@dimen/_10sdp" />
+
+                <Button
+                    android:id="@+id/fragment_signIn_Button_registe"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="@string/fragment_sign_in_register"
+                    android:textSize="@dimen/_16ssp"
+                    app:cornerRadius="@dimen/_10sdp" />
+
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+</layout>
