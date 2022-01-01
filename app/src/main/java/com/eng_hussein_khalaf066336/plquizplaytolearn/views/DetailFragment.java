@@ -2,6 +2,7 @@ package com.eng_hussein_khalaf066336.plquizplaytolearn.views;
 
 import android.os.Bundle;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -15,6 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.bumptech.glide.Glide;
+import com.eng_hussein_khalaf066336.plquizplaytolearn.R;
 import com.eng_hussein_khalaf066336.plquizplaytolearn.databinding.FragmentDetailBinding;
 import com.eng_hussein_khalaf066336.plquizplaytolearn.model.QuizListModel;
 import com.eng_hussein_khalaf066336.plquizplaytolearn.viewmodel.QuizListViewModel;

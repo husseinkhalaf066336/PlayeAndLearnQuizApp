@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PL Quiz Play to learn</string>
+    <string name="app_name">Quiz App</string>
 
     <!--    fragment_sign_in-->
     <string name="fragment_sign_in_txt_tolbar">Hallo my app PDS</string>
