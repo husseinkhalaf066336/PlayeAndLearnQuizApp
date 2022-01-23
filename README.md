@@ -1,11 +1,11 @@
 # PlayeAndLearnQuizApp
-##Overview
+## Overview
 - QuizApp is a quiz application that contains programming questions Android, Java and Kotlin
 - Timer for questions
 - QuizApp uses Google's firebase for managing the tests, results and authentication.
 - QuizApp uses firebase-Cloud Storage feature to save images. Upload quizzes being created by admin use Cloud Storage for Firebase 
 
-##Android Architecture Components:
+## Android Architecture Components:
 -[MVVM](https://developer.android.com/topic/libraries/architecture/viewmodel) (Model View ViewModel) -Architecture Pattern
 -[ViewMode](https://developer.android.com/topic/libraries/architecture/viewmodel)
 -[LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
