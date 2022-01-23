@@ -18,6 +18,7 @@
 - [Firebase Authentication](https://firebase.google.com/docs/auth)
 - [Firebase Cloud Storage](https://firebase.google.com/products/storage)
 - [Navigation component](https://developer.android.com/guide/navigation/navigation-getting-started)
+- [Safe Args](https://developer.android.com/guide/navigation/navigation-pass-data#Safe-args)
 - [intuit](https://github.com/intuit/sdp)
 - [View Binding](https://developer.android.com/topic/libraries/view-binding)
 - [TabLayout](https://developer.android.com/reference/com/google/android/material/tabs/TabLayout)
