@@ -22,7 +22,7 @@
 - [intuit](https://github.com/intuit/sdp)
 - [View Binding](https://developer.android.com/topic/libraries/view-binding)
 - [TabLayout](https://developer.android.com/reference/com/google/android/material/tabs/TabLayout)
-- [DeffUtil with  RecyclerView](https://developer.android.com/reference/kotlin/androidx/recyclerview/widget/RecyclerView)
+- [RecyclerView](https://developer.android.com/reference/kotlin/androidx/recyclerview/widget/RecyclerView)
 - [WebView](https://developer.android.com/reference/android/webkit/WebView)
 
 ## Screenshot
