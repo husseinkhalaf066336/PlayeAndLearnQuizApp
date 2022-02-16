@@ -1,4 +1,4 @@
-# PlayeAndLearnQuizApp
+#  Play and Learn Quiz_App
 ## Overview
 - QuizApp is a quiz application that contains programming questions:  Android questions, Java questions and Kotlin questions.
 - Timer for questions.
