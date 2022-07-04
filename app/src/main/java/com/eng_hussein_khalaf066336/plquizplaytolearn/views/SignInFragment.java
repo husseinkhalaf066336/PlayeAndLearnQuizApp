@@ -1,11 +1,9 @@
 package com.eng_hussein_khalaf066336.plquizplaytolearn.views;
 
-import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.core.content.res.ResourcesCompat;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.NavController;
@@ -51,7 +49,7 @@ public class SignInFragment extends Fragment {
 
         navController = Navigation.findNavController(view);
 
-        binding.fragmentSignInButtonRegiste.setOnClickListener(v ->
+        binding.fragmentSignUpButtonBackSignIn.setOnClickListener(v ->
                 navController.navigate(R.id.action_signInFragment_to_signUpFragment));
 
         binding.fragmentSignInButtonSave.setOnClickListener(v -> {

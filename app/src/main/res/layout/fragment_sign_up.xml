@@ -145,7 +145,7 @@
                     android:layout_height="@dimen/_35sdp"
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/_5sdp"
-                    android:text="logIn"
+                    android:text="@string/fragment_sign_in_Button_login"
                     android:background="@color/black"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_20ssp"

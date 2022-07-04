@@ -121,14 +121,15 @@
                     app:cornerRadius="@dimen/_10sdp" />
 
                 <Button
-                    android:id="@+id/fragment_signIn_Button_registe"
+                    android:id="@+id/fragment_signUp_Button_back_signIn"
                     android:layout_width="@dimen/_150sdp"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_gravity="center"
-                    android:backgroundTint="@color/black"
-                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/_5sdp"
                     android:text="@string/fragment_sign_in_register"
-                    android:textSize="@dimen/_16ssp"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_20ssp"
                     app:cornerRadius="@dimen/_10sdp" />
 
 
